@@ -37,7 +37,7 @@ def players():
         elif (more_players == "yes"):
             break
 
-    print_player_names(players)
+    print_player_names(len(player_names))
     hangman()
     # print("The current players are: {}".format(player_names))
     
